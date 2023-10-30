@@ -44,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 const Text(
                   "Entrez le nom des joueurs",
                   style: TextStyle(
-                    fontSize: 30,
+                    fontSize: 25,
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
                   ),
