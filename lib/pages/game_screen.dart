@@ -212,8 +212,8 @@ class _GameScreenState extends State<GameScreen> {
     ).show();
   }
 
-  void showTieDialog(String title) async {
-    await AwesomeDialog(
+  void showTieDialog(String title) {
+    AwesomeDialog(
       context: context,
       dialogType: DialogType.error,
       animType: AnimType.rightSlide,
